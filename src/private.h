@@ -3,8 +3,7 @@
 
 #include <flecs_lua.h>
 
-#include <lualib.h>
-#include <lauxlib.h>
+#include "minilua.h"
 
 /* A 64-bit lua_Number is also recommended */
 #if (lua_Unsigned)-1 != UINT64_MAX

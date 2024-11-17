@@ -1,6 +1,7 @@
 #include "private.h"
 
 #include <ctype.h> /* tolower() */
+#include <stdlib.h>
 
 typedef struct ecs_lua_col_t
 {

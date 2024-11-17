@@ -173,6 +173,8 @@ int term_next(lua_State *L)
     return 1;
 }
 
+extern bool ecs_lua_iter_next(lua_State *L, int idx);
+
 int iter_next(lua_State *L)
 {
     int b = ecs_lua_iter_next(L, 1);

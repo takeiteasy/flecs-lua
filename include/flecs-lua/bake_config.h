@@ -18,7 +18,7 @@
 #define FLECS_LUA_BAKE_CONFIG_H
 
 /* Headers of public dependencies */
-#include <lua.h>
+#include "minilua.h"
 #include <flecs.h>
 
 /* Convenience macro for exporting symbols */
